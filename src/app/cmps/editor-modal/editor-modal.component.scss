@@ -1,0 +1,50 @@
+
+    .modal-body{
+        margin: auto;
+        img{
+            width: 100%;
+            margin-bottom: 15px;
+            max-height: 440px;
+            object-fit: cover;
+        }
+        label{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            input{
+                padding: 5px;
+                border-radius: 5px;
+                margin-bottom: 5px;
+            }
+        }
+        .add-movie{
+            justify-content: flex-start;
+            input{
+                margin-bottom: 0;
+            }
+        }
+        button{
+            float: right;
+        }
+    }
+            .modal-footer{
+                padding-right: 0;
+            }
+.alert-danger{
+    margin-bottom: 10px;
+}
+.close{
+    &:focus{
+        outline: none;
+    }
+}
+
+.modal-content{
+    width: fit-content;
+}
+
+@media (min-width:550px){
+    .modal-body{
+    width: fit-content;
+    }
+}

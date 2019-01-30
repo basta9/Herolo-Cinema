@@ -1,0 +1,44 @@
+
+@font-face{
+    font-family: wrest;
+    src: url(../../../assets/fonts/wrestlemania/WRESTLEMANIA.ttf)
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    height: 350px;
+    width: 100%;
+    background-image: url('../../../assets/imgs/cinema2.jpg');
+    background-position: top;
+    background-size: cover;
+    h1{
+        font-family: wrest;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+        font-size: 80px;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 40px;
+        font-family: wrest;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width:550px){
+    header{
+    height: 450px;
+    h1{
+        font-size: 120px;
+        padding-top: 130px;
+    }
+    }
+}
